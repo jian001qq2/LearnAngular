@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice One</title>
+    <!--Link needed for using Angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+    <h1>Learning AngularJS</h1>
+    <p>It is a JavaScript framework</p>
+    <div ng-app="myApp"ng-controller="myCtrl">
+        <p>First Name<input type="text" ng-model="firstName"></p>
+        <p>{{ firstName + " " + lastName }}</p>
+    </div>
+    <script src="MyController.js"></script>
+    <script src="myModel.js"></script>
+</body>
+</html>
